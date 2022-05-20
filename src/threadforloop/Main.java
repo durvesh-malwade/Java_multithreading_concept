@@ -22,6 +22,7 @@ public class Main {
         // In this we get the numbers output in random manner and not in the sequence as for every number
         // a new thread i screated and the execution of them takes place parallely hence the output
         // is in varied format
+        
         for(int i=0; i<100; i++)
         {
             allThreads.get(i).join();

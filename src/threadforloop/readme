@@ -1,0 +1,13 @@
+In this package we understand how we can use threads to execute the task using multiple threads.
+
+The NumberPrinter class is used to print numbers.
+For every number we have created a new objecta of the calss NumebrPrinter and passed the same to run it on an
+independent thread.
+
+We have used Thread class in Main and ExeccutorServcie class in MainTwo (in this we have showcased thread pool implementation).
+
+Note in the output you will find disparity in the output, the reason for that is the threads are not synchronized
+and hence we face this issue.
+
+
+
