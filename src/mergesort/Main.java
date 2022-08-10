@@ -16,6 +16,7 @@ public class Main {
         MergeSort mergeSort = new MergeSort(list);
 
         ExecutorService executorService = Executors.newCachedThreadPool();
+        
 
         Future<List<Integer>> sortedList = executorService.submit(mergeSort);
         try {
